@@ -784,7 +784,7 @@
                 <!-- CONTACT FORM -->
                 <div class="card">
                     <div class="card-content">
-                        <form id="contact-form" name="c-form">
+                        <form id="contact-form" name="c-form" onsubmit="submitForm(event)">
                             <!-- NAME -->
                             <div class="input-field">
                                 <input id="entry.1317500699" type="text" class="validate" name="entry.1317500699" required>
@@ -808,7 +808,7 @@
                             </div>
                             <!-- SEND BUTTON -->
                             <div class="contact-send">
-                                <button id="submit" name="contactSubmit" type="submit" value="Submit" onclick="submitForm(event)"
+                                <button id="submit" name="contactSubmit" type="submit" value="Submit"
                                         class="btn waves-effect">Enviar
                                 </button>
                             </div>
