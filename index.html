@@ -784,31 +784,31 @@
                 <!-- CONTACT FORM -->
                 <div class="card">
                     <div class="card-content">
-                        <form id="contact-form" name="c-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdvZ3AFXDl7haYRntVvmt3h4zq6IVuIl58RkYTWNy7pGMm4Cw/formResponse">
+                        <form id="contact-form" name="c-form">
                             <!-- NAME -->
                             <div class="input-field">
-                                <input id="first_name" type="text" class="validate" name="entry.1317500699" required>
-                                <label for="first_name">Nome</label>
+                                <input id="entry.1317500699" type="text" class="validate" name="entry.1317500699" required>
+                                <label for="entry.1317500699">Nome</label>
                             </div>
                             <!--SUBJECT-->
                             <div class="input-field">
-                                <input id="sub" type="text" class="validate" name="entry.445161768">
-                                <label for="sub">Assunto</label>
+                                <input id="entry.445161768" type="text" class="validate" name="entry.445161768">
+                                <label for="entry.445161768">Assunto</label>
                             </div>
                             <!--EMAIL-->
                             <div class="input-field">
-                                <input id="email" type="email" class="validate" name="entry.593498457" required>
-                                <label for="email">Email</label>
+                                <input id="entry.593498457" type="email" class="validate" name="entry.593498457" required>
+                                <label for="entry.593498457">Email</label>
                             </div>
                             <!--MESSAGE-->
                             <div class="input-field">
-                                <textarea id="textarea1" class="materialize-textarea" name="entry.1719154220"
+                                <textarea id="entry.1719154220" class="materialize-textarea" name="entry.1719154220"
                                           required></textarea>
-                                <label for="textarea1">Mensagem</label>
+                                <label for="entry.1719154220">Mensagem</label>
                             </div>
                             <!-- SEND BUTTON -->
                             <div class="contact-send">
-                                <button id="submit" name="contactSubmit" type="submit" value="Submit"
+                                <button id="submit" name="contactSubmit" type="button" value="Submit" onclick="submitForm(event)"
                                         class="btn waves-effect">Enviar
                                 </button>
                             </div>
@@ -846,12 +846,12 @@
 <script src="javascript/jquery-2.1.3.min.js"></script>
 <script src="javascript/bootstrap.min.js"></script>
 <script src="javascript/materialize.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY"></script>
 <script src="javascript/markerwithlabel.min.js"></script>
 <script src="javascript/retina.min.js"></script>
 <script src="javascript/scrollreveal.min.js"></script>
 <script src="javascript/jquery.touchSwipe.min.js"></script>
 <script src="javascript/custom.js"></script>
+<script src="javascript/sendMail.js"></script>
 
 
 </body>
