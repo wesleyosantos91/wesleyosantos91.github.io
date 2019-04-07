@@ -25,7 +25,7 @@ function submitForm(e){
         .then(function(data) {
             console.log(data);
             Materialize.toast('Obrigado pelo contato. Retornarei o mais breve possível. ' +
-                '<br> Se preferir, entre em contato pelo número (61) 99203-1236.', 10000, 'green rounded');
+                '<br> Se preferir, entre em contato pelo número (61) 99551-1463.', 10000, 'green rounded');
         })
         .catch(function(error) {
             console.log(error);
