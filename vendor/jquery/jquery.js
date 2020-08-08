@@ -1258,7 +1258,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 	if ( (support.qsa = rnative.test( document.querySelectorAll )) ) {
 		// Build QSA regex
-		// Regex strategy
+		// Regex strategy adopted from Diego Perini
 		assert(function( el ) {
 			// Select is set to empty string on purpose
 			// This is to test IE's treatment of not explicitly

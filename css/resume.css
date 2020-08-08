@@ -5,15 +5,20 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #646464;
+  color: #adb5bd;
+  margin: 0;
+ 
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
+    background-color: #9b969633;
   }
 }
 
@@ -23,10 +28,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #eedddd;
 }
 
 h1 {
@@ -50,8 +57,11 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+  color: rgb(7, 203, 121);
 }
 
 .social-icons a {
@@ -59,7 +69,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
-  color: #fff !important;
+  color: rgba(255, 255, 255, 0.952) !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -72,7 +82,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #646464;
+  background-color: rgb(7, 203, 121);
 }
 
 .dev-icons {
@@ -80,7 +90,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #646464;
+  color: rgb(7, 203, 121);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +100,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #646464;
+  outline-color: rgb(7, 203, 121);
 }
 
 @media (min-width: 992px) {
@@ -112,7 +122,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #ffffff33;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -136,7 +146,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  background-color: rgb(43, 44, 44) !important;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -160,17 +170,85 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #646464 !important;
+  background-color: #18191a !important;
 }
 
 .text-primary {
-  color: #646464 !important;
+  color: rgb(7, 203, 121) !important;
 }
 
 a {
-  color: #646464;
+  color: rgb(7, 203, 121);
 }
 
-a:hover, a:focus, a:active {
-  color: #646464;
+a:hover,
+a:focus,
+a:active {
+  color: rgb(7, 203, 121);
+}
+.comecaAqui {
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+}
+
+.cardfooter {
+  color: #aaa;
+}
+
+.card-title {
+  color: #07CB79;
+}
+
+.card-link,
+.number,
+.name {
+  color: aliceblue;
+}
+.card-body:hover {
+  background-color: rgb(43, 44, 44) !important;
+}
+.card-body {
+  background-color: #495057 !important;
+}
+.card-subtitle {
+  color: aliceblue !important;
+}
+.card-link:hover {
+  color: #07CB79 !important;
+}
+
+.card-title:hover {
+  color: aliceblue;
+}
+.v-ripple:hover {
+  background-color: aliceblue;
+  color: #07CB79;
+}
+
+.v-ripple {
+  cursor: default;
+  height: 32px;
+  justify-content: space-between;
+  padding: 0 12px;
+  white-space: nowrap;
+  z-index: 1;
+  align-items: center;
+  border-radius: 28px;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: #07CB79;
+  color: aliceblue;
+  font-size: 13px;
+  margin: 4px;
+  outline: none;
+  position: relative;
+}
+.imagemBloco {
+  max-width: 320px;
+  max-height: 205px;
+  width: auto;
+  height: auto;
 }

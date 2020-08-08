@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt">
+  
 <head>
-
+  <link rel="shortcut icon" href="./img/favicon.png" >
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="CV/Resumo de Wesley Oliveira Santos">
   <meta name="author" content="Wesley Oliveira">
 
   <title>Resumo - Wesley Oliveira Santos</title>
-
+  <!-- Animação AOS -->
+  <link  rel ="stylesheet" href="./css/aos.css"/>
+  
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
+ 
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/favicon.png" />
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" >
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Wesley Oliveira Santos</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="Imagem de perfil do Wesley Oliveira Santos">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +44,7 @@
           <a class="nav-link js-scroll-trigger" href="#about">RESUMO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">EXPERIÊNCIA</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">EXPERIÊNCIAS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">FORMAÇÃO</a>
@@ -51,28 +53,37 @@
           <a class="nav-link js-scroll-trigger" href="#skills">SKILLS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">CERTIFICAÇÕES</a>
+          <a class="nav-link js-scroll-trigger" href="#certifications">CERTIFICAÇÕES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">CURSOS</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0" >
 
-    <section class="resume-section p-3 p-lglg-5 d-flex align-items-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Wesley          <span class="text-primary">Oliveira Santos</span>
-        </h1>
-        <div class="subheading mb-5"> Engenheiro de Software
-		<div class="subheading mb-5"> Brasília - DF, Brasil
-		</div>
-		<i class="fas fa-envelope-square"></i>
-		<a href="mailto:wesleyosantos91@gmail.com">wesleyosantos91@gmail.com</a>
-		</div>
-        <p class="lead mb-5"> Sou desenvolvedor Java, amante de tecnologia e apaixonado por conhecimento. Sou curioso e
-            entusiasta de novas tecnologias, busco sempre tendências de mercado e faço diversas pocs para estudo de novas
-            tecnologias. Meu hobby é assistir animes e filmes de comédia.
-		</p>
+        <div data-aos="zoom-out-down">
+          <h1 class="mb-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">Wesley
+            <span class="text-primary">Oliveira Santos</span>
+          </h1>
+        </div>
+        <div data-aos="zoom-out-up" class="subheading mb-5">
+          Engenheiro de Software<br>
+          Brasília - DF, Brasil<br>
+          <i class="fas fa-phone"></i>
+          +55 61 9 9551-1463 | +55 61 9 8223-2040<br>
+          <i class="fas fa-envelope-square"></i>
+          <a href="mailto:wesleyosantos91@gmail.com">wesleyosantos91@gmail.com</a>
+        </div>
+        <p class="lead mb-5">Sou desenvolvedor Java, amante de tecnologia e apaixonado por conhecimento. Sou curioso e
+          entusiasta de novas tecnologias, busco sempre tendências de mercado e faço diversas pocs para estudo de novas
+          tecnologias. Meu hobby é assistir animes e filmes de comédia.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/wesleyosantos91/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -87,8 +98,11 @@
             <i class="fab fa-github"></i>
           </a>
           <a href="https://medium.com/@wesleyosantos91" target="_blank">
-			<i class="fab fa-medium"></i>
+            <i class="fab fa-medium"></i>
           </a>
+          <a href="./curriculo/wesleyosantos.pdf" target="_blank" download="wesleyosantos.pdf">
+            <i class="fa fa-download"></i>
+          </a>              
         </div>
       </div>
     </section>
@@ -97,101 +111,108 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experiência</h2>
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-5">Experiência</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Analista Desenvolvedor Java Sênior</h3>
-              <a href="https://www.cateno.com.br/" target="_blank" class="btn btn-secondary">CATENO GESTÃO DE CONTAS DE PAGAMENTO S.A.</a>
-              <p>Desenvolvimento de soluções cloud para meios de pagamentos.</p>
-              <p>Cliente: Banco de Brasil</p>
-              <p>Java 11, Quarkus, Junit, SQL, Maven, Angular 9, GIT, Jenkins, Argo, Jfrog Artifactory, Kubernetes,
-                  Rancher, Jaeger, Prometheus, Grafana, SO: Linux.</p>
+            <a href="https://www.cateno.com.br/" target="_blank" class="btn btn-secondary">CATENO GESTÃO DE CONTAS DE PAGAMENTO S.A.</a>
+            <p>Desenvolvimento de soluções cloud para meios de pagamentos.</p>
+            <p>Cliente: Banco de Brasil</p>
+            <p>Java 11, Quarkus, Junit, SQL, Maven, Angular 9, GIT, Jenkins, Argo, Jfrog Artifactory, Kubernetes,
+              Rancher, Jaeger, Prometheus, Grafana, SO: Linux.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Agosto 2020 - Atual</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-              <h3 class="mb-0">Analista Desenvolvedor Java Sênior</h3>
-              <a href="https://spread.com.br/" target="_blank" class="btn btn-secondary">SPREAD TECNOLOGIA</a>
-              <p>Desenvolvimento de soluções de meios de pagamentos.</p>
-              <p>Cliente: Caixa Econômica</p>
-              <p>Java 8, Java EE, Rest, Swagger, JPA/Hibernate, JSF, Lombok, Junit, PowerMock, Mockito, Jboss EAP 7,
-                  SQL, Banco de dados SQL Server, Angular JS/2+, GIT, Docker, Maven, Intellij, SO: Windows 10.</p>
+            <h3 class="mb-0">Analista Desenvolvedor Java Sênior</h3>
+            <a href="https://spread.com.br/" target="_blank" class="btn btn-secondary">SPREAD TECNOLOGIA</a>
+            <p>Desenvolvimento de soluções de meios de pagamentos.</p>
+            <p>Cliente: Caixa Econômica</p>
+            <p>Java 8, Java EE, Rest, Swagger, JPA/Hibernate, JSF, Lombok, Junit, PowerMock, Mockito, Jboss EAP 7,
+              SQL, Banco de dados SQL Server, Angular JS/2+, GIT, Docker, Maven, Intellij, SO: Windows 10.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Julho 2020 - Agosto 2020</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-              <h3 class="mb-0">Engenhario de Software Sênior</h3>
-              <a href="https://www.grupoicts.com.br/" target="_blank" class="btn btn-secondary">GRUPO ICTS</a>
-              <p>Desenvolvimento de soluções de meios de pagamentos.<p>
-              <p>Cliente: Sicoob</p>
-              <p>Java 8, Java EE, EJB, JPA/Hibernate, JMS, Junit, Adobe Flex, ActionScript, SQL, Websphere Server V9,
-                  WebSphere MQ,  Jboss 4, SQL Server, DB2, Maven,  GIT, Jenkins, Eclipse, Adobe Flash Builder, DBeaver,
-                  SO: Windows 10.</p>
+            <h3 class="mb-0">Engenhario de Software Sênior</h3>
+            <a href="https://www.grupoicts.com.br/" target="_blank" class="btn btn-secondary">GRUPO ICTS</a>
+            <p>Desenvolvimento de soluções de meios de pagamentos.
+            <p>
+            <p>Cliente: Sicoob</p>
+            <p>Java 8, Java EE, EJB, JPA/Hibernate, JMS, Junit, Adobe Flex, ActionScript, SQL, Websphere Server V9,
+              WebSphere MQ, Jboss 4, SQL Server, DB2, Maven, GIT, Jenkins, Eclipse, Adobe Flash Builder, DBeaver,
+              SO: Windows 10.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Abril 2020 - Junho 2020</span>
           </div>
         </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                  <h3 class="mb-0">Arquiteto de soluções</h3>
-                  <a href="https://unboxculture.com/" target="_blank" class="btn btn-secondary">UNBOX PEOPLE & CULTURE</a>
-                  <p>Desenvolvimento de aplicações do segmento de seguros e sustentação barramento de serviços
-                      Integration Bus IBM e IBM API Connect.</p>
-                  <p>Cliente: Caixa Seguradora</p>
-                  <p>Java 8, Java EE, Spring Boot, IBM API Connect e IBM Integration Bus, Apache Kafka, API First,
-                      Contract First,  Microserviços, Swagger/OpenAPI,  JPA, JSF, Lombok, Junit, PowerMock, Mockito,
-                      Openshift, Jboss EAP 7,  Tomcat,  WSDL, XSD,  SQL, Banco de dados SQL Server, JavaScript,
-                      Angular JS/2+, GIT, Docker, Maven, Intellij, DataGrip, Kafka Tools, SO:Windows 10/Mac OS</p>
-              </div>
-              <div class="resume-date text-md-right">
-                  <span class="text-primary">Agosto 2019 - Março 2020</span>
-              </div>
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Arquiteto de soluções</h3>
+            <a href="https://unboxculture.com/" target="_blank" class="btn btn-secondary">UNBOX PEOPLE & CULTURE</a>
+            <p>Desenvolvimento de aplicações do segmento de seguros e sustentação barramento de serviços
+              Integration Bus IBM e IBM API Connect.</p>
+            <p>Cliente: Caixa Seguradora</p>
+            <p>Java 8, Java EE, Spring Boot, IBM API Connect e IBM Integration Bus, Apache Kafka, API First,
+              Contract First, Microserviços, Swagger/OpenAPI, JPA, JSF, Lombok, Junit, PowerMock, Mockito,
+              Openshift, Jboss EAP 7, Tomcat, WSDL, XSD, SQL, Banco de dados SQL Server, JavaScript,
+              Angular JS/2+, GIT, Docker, Maven, Intellij, DataGrip, Kafka Tools, SO:Windows 10/Mac OS</p>
           </div>
-		
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Agosto 2019 - Março 2020</span>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Analista de Sistemas Sênior</h3>
             <a href="https://www.castgroup.com.br/pt/" target="_blank" class="btn btn-secondary">CAST GROUP</a>
-            <p>Desenvolvimento do módulo financeiro de venda de derivativos e acompanhamento como líder técnico dos desenvolvedores plenos e junior da fábrica de Araraquara.</p>
+            <p>Desenvolvimento do módulo financeiro de venda de derivativos e acompanhamento como líder técnico dos
+              desenvolvedores plenos e junior da fábrica de Araraquara.</p>
             <p>Cliente: Caixa Econômica</p>
-			<p>Java 8, Java EE, Rest, Swagger,  JPA, JSF, Lombok, Junit, PowerMock, Mockito, Jboss EAP 7,  SQL, Banco de dados SQL Server, Angular JS/2+, GIT, Docker, Maven, Intellij, SO Linux.</p>
+            <p>Java 8, Java EE, Rest, Swagger, JPA, JSF, Lombok, Junit, PowerMock, Mockito, Jboss EAP 7, SQL, Banco de dados
+              SQL Server, Angular JS/2+, GIT, Docker, Maven, Intellij, SO Linux.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Novembro 2018 – Maio 2019</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Programador Java Pleno</h3>
-            <a href="https://www.basis.com.br/" target="_blank" class="btn btn-secondary">BASIS TECNOLOGIA DA INFORMAÇÃO S.A</a>
-            <p>Desenvolvimento de aplicações Financeiras e sistemas de com foco em territórios e de de transparência de estatais. <p>
+            <a href="https://www.basis.com.br/" target="_blank" class="btn btn-secondary">BASIS TECNOLOGIA DA INFORMAÇÃO
+              S.A</a>
+            <p>Desenvolvimento de aplicações Financeiras e sistemas de com foco em territórios e de de transparência de
+              estatais.
+            <p>
             <p>Cliente: Ministerio do planejamento - MPOG</p>
-            <p>Java 8, Spring Boot, Microservice Rest, Swagger,  JPA, JSF, Junit, PowerMock, Mockito, Jboss as 7,
-            Liquibase, SQL, Banco de dados Postgresql, Angular JS/2+, GIT, Docker, Maven, Intellij, SO Linux.</p>
+            <p>Java 8, Spring Boot, Microservice Rest, Swagger, JPA, JSF, Junit, PowerMock, Mockito, Jboss as 7,
+              Liquibase, SQL, Banco de dados Postgresql, Angular JS/2+, GIT, Docker, Maven, Intellij, SO Linux.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Abril 2018 - Novembro 2018</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Programador Java Junior</h3>
             <a href="https://www.cabal.com.br/pt/" target="_blank" class="btn btn-secondary">CABAL BRASIL LTDA</a>
-            <p>Desenvolvimento de soluções de meios de pagamentos. <p>
-            <p>Java 6/8, Java EE 6,  Spring framework, EJB, JPA, Rest, JavaScript, SQL, Banco de dados Oracle,
+            <p>Desenvolvimento de soluções de meios de pagamentos.
+            <p>
+            <p>Java 6/8, Java EE 6, Spring framework, EJB, JPA, Rest, JavaScript, SQL, Banco de dados Oracle,
               JBoss (5.1, 7.1.1), JBoss EAP 6.4, Tomcat 8, HornetQ, Apache ActiveMQ, GIT,
               Integração contínua com Jenkins, Redmine, Kanban SO Windows 10.</p>
           </div>
@@ -200,14 +221,17 @@
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Estagiário Desenvolvimento de Software</h3>
-            <a href="http://coreconsulting.com.br/" target="_blank" class="btn btn-secondary">CORE CONSULTORIA E SERVIÇOS LTDA EPP</a>
+            <a href="http://coreconsulting.com.br/" target="_blank" class="btn btn-secondary">CORE CONSULTORIA E SERVIÇOS
+              LTDA EPP</a>
             <p>Auxiliar no desenvolvimento de demanda seguindo SOA (Arquitetura orientada a Serviços).
-              Desenvolvimento de contratos WSDL com paradigma contract first, manutenção do portal da empresa, teste manual.<p>
+              Desenvolvimento de contratos WSDL com paradigma contract first, manutenção do portal da empresa, teste
+              manual.
+            <p>
             <p>Clientes: TJ SC, DATA Prev</p>
-            <p>Java 8, WSDL, XSD,  Tomcat 8, Jboss 7.1.1, Rest, Soap, SoapUI, angular JS, HTML, CSS, Bootstrap.</p>
+            <p>Java 8, WSDL, XSD, Tomcat 8, Jboss 7.1.1, Rest, Soap, SoapUI, angular JS, HTML, CSS, Bootstrap.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Agosto 2015 - Julho 2016</span>
@@ -222,34 +246,36 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Formação</h2>
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-5">Formação</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Unyleya</h3>
-            <div class="subheading mb-3">Pós graduado em Banco de Dados</div>
-              </div>
+            <h3 class="mb-0">PÓS GRADUADO EM BANCO DE DADOS</h3>
+            <div class="subheading mb-3">UNYLEYA</div>
+          </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">2018 - 2020</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">Unyleya</h3>
-            <div class="subheading mb-3">Pós graduado em Desenvolvimento de Sistemas Java</div>
+            <h3 class="mb-0">PÓS GRADUADO EM DESENVOLVIMENTO DE SISTEMAS JAVA</h3>
+            <div class="subheading mb-3">UNYLEYA</div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">2017 - 2018</span>
           </div>
         </div>
+        <br/>
+        </br/>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">UPIS (União pioneira da integração social)</h3>
-            <div class="subheading mb-3">Graduado em Sistemas de Informação</div>
-              </div>
-			 <div class="resume-date text-md-right">
+            <h3 class="mb-0">GRADUADO EM SISTEMAS DE INFORMAÇÃO</h3>
+            <div class="subheading mb-3">UPIS (UNIÃO PIONEIRA DA INTEGRAÇÃO SOCIAL)</div>
+          </div>
+          <div class="resume-date text-md-right">
             <span class="text-primary">2013 - 2017</span>
           </div>
         </div>
@@ -261,44 +287,51 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Tools</div>
-        <ul class="list-inline dev-icons">
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-5">Skills</h2>
+     
+        <div data-aos="fade-left" class="subheading mb-3">TOOLS</div>
+        <ul class="list-inline dev-icons" data-aos="fade-right" >
           <li class="list-inline-item">
-			<i class="fab fa-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js"></i>
+            <i class="fab fa-java" title="JAVA"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <i class="fab fa-js" title="JAVASCRIPT"></i>
           </li>
           <li class="list-inline-item">
-   			<i class="fab fa-docker"></i>
-          </li>
-		  <li class="list-inline-item">
-		  <i class="fas fa-database"></i>
-          </li>
-		  <li class="list-inline-item">
-			<i class="fab fa-apple"></i>
+            <i class="fab fa-html5" title="HTML5"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-linux"></i>
+            <i class="fab fa-css3-alt" title="CSS"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-windows"></i>
+            <i class="fab fa-angular" title="ANGULAR"></i>
           </li>
-		  <li class="list-inline-item">
-			<i class="fab fa-gitlab"></i>
+          <li class="list-inline-item">
+            <i class="fab fa-docker" title="DOCKER"></i>
           </li>
-		   <li class="list-inline-item">
-			<i class="fab fa-github"></i>
+          <li class="list-inline-item">
+            <i class="fas fa-database" title="BANCO DE DADOS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-apple" title="MAC OS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-linux" title="LINUX"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-windows" title="WINDOWS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gitlab" title="GITLAB"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-github" title="GIT"></i>
           </li>
         </ul>
-
-        <div class="subheading mb-3">Principais Habilidades</div>
-        <ul class="fa-ul mb-0">
+        
+        <div data-aos="fade-left" class="subheading mb-3">Principais Habilidades</div>
+        
+        <ul class="fa-ul mb-0" data-aos="fade-right">
           <li>
             <i class="fa-li fa fa-check"></i>
             Java | Spring | Quarkus | Java EE
@@ -308,11 +341,11 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             NodeJS | Express | Sequelize | Nodemon
-		  <li>
+          <li>
             <i class="fa-li fa fa-check"></i>
             Junit | Mockito | PowerMock | RestAssured
-          <li>       
-	      <li>
+          <li>
+          <li>
             <i class="fa-li fa fa-check"></i>
             Tomcat | Jboss EAP | Jboss AS
           </li>
@@ -370,24 +403,43 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
+      <div class="w-100">
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-5">Certificações</h2>
+        <div data-aos="zoom-in-up">
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              <a href="https://drive.google.com/file/d/16a6FCaYtGK181u7FMQdaSUCv2mXBql25/view?usp=sharing" target="_blank" class="btn btn-link">Scrum Developer Certified (SDC) - Scrum Study</a>
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              <a href="https://drive.google.com/file/d/17JpUXeW-UqZe-vyo-ncS1Jq6r2qmhMsC/view?usp=sharing" target="_blank" class="btn btn-link">Scrum Master Certified (SMC) - Scrum Study</a>
+            </li>
+          </ul>
+      </div>
+      </div>
+    </section>
 
+    <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5">Certificações</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-			<a href="https://drive.google.com/file/d/16a6FCaYtGK181u7FMQdaSUCv2mXBql25/view?usp=sharing" target="_blank" class="btn btn-link">Scrum Developer Certified (SDC) - Scrum Study</a>
-          </li>
-          <li>
-			<i class="fa-li fa fa-trophy text-warning"></i>
-			<a href="https://drive.google.com/file/d/17JpUXeW-UqZe-vyo-ncS1Jq6r2qmhMsC/view?usp=sharing" target="_blank" class="btn btn-link">Scrum Master Certified (SMC) - Scrum Study</a>
-          </li>
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-5">CURSOS</h2>
+        <div data-aos="fade-left" class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Desenvolvedor Full Stack</h3>
+            <div class="subheading mb-3">IGTI – Instituto de Gestão e Tecnologia da Informação</div>
+            <div>Bootcamp para a formação de Desenvolvedor Full Stack JavaScript</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020</span>
+          </div>
         </div>
+      </div>
     </section>
-
   </div>
+  
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -398,7 +450,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
-
+  <!-- Script AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+  <script> 
+    AOS.init(); 
+  </script>
 </body>
 
 </html>
