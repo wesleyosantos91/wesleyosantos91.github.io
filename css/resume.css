@@ -61,7 +61,7 @@ p.lead {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
-  color: rgb(7, 203, 121);
+  color: rgb(20, 7, 203);
 }
 
 .social-icons a {
@@ -82,7 +82,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: rgb(7, 203, 121);
+  background-color: rgb(20, 7, 203);
 }
 
 .dev-icons {
@@ -90,7 +90,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: rgb(7, 203, 121);
+  color: rgb(20, 7, 203);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -100,7 +100,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: rgb(7, 203, 121);
+  outline-color: rgb(20, 7, 203);
 }
 
 @media (min-width: 992px) {
@@ -174,17 +174,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: rgb(7, 203, 121) !important;
+  color: rgb(20, 7, 203) !important;
 }
 
 a {
-  color: rgb(7, 203, 121);
+  color: rgb(20, 7, 203);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: rgb(7, 203, 121);
+  color: rgb(20, 7, 203);
 }
 .comecaAqui {
 }
@@ -199,7 +199,7 @@ a:active {
 }
 
 .card-title {
-  color: #07CB79;
+  color: #1407cb;
 }
 
 .card-link,
@@ -217,7 +217,7 @@ a:active {
   color: aliceblue !important;
 }
 .card-link:hover {
-  color: #07CB79 !important;
+  color: #1407cb !important;
 }
 
 .card-title:hover {
@@ -225,7 +225,7 @@ a:active {
 }
 .v-ripple:hover {
   background-color: aliceblue;
-  color: #07CB79;
+  color: #1407cb;
 }
 
 .v-ripple {
@@ -239,7 +239,7 @@ a:active {
   border-radius: 28px;
   display: inline-flex;
   vertical-align: middle;
-  background-color: #07CB79;
+  background-color: #1407cb;
   color: aliceblue;
   font-size: 13px;
   margin: 4px;
