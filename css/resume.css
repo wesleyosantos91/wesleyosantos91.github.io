@@ -713,6 +713,19 @@ a:focus {
   border-color: var(--color-accent);
 }
 
+
+.soft-skills-card {
+  margin-top: 1.5rem;
+  background: linear-gradient(160deg, rgba(26, 26, 37, 0.92), rgba(13, 22, 40, 0.82));
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.soft-skills-card .skill-items {
+  gap: 0.55rem;
+}
+
 /* ---------- Education Grid ---------- */
 .education-grid {
   display: grid;
