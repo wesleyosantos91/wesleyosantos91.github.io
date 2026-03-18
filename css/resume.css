@@ -277,10 +277,17 @@ a:focus {
 }
 /* Hero Badges */
 .hero-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55rem;
   margin-bottom: 1.5rem;
+  max-width: 860px;
+}
+
+@media (min-width: 992px) {
+  .hero-badges {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .hero-badge {
@@ -784,7 +791,7 @@ a:focus {
 
 @media (min-width: 1400px) {
   .certifications-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
