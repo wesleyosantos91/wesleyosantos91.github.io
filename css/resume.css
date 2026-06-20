@@ -59,6 +59,58 @@ body {
   color: white;
 }
 
+/* ---------- Accessibility ---------- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 2000;
+  padding: 0.6rem 1rem;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent-light);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Offset anchor targets so titles are not hidden under the fixed navbar */
+.resume-section {
+  scroll-margin-top: 70px;
+}
+
+@media (min-width: 992px) {
+  .resume-section {
+    scroll-margin-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* ---------- Typography ---------- */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
@@ -636,6 +688,87 @@ a:focus {
 
 .project-card .tech-tags {
   margin-top: 0.9rem;
+}
+
+/* ---------- Open Source / Repos ---------- */
+.repos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .repos-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .repos-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 1.4rem;
+  color: var(--color-text);
+  transition: var(--transition);
+}
+
+.repo-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.12);
+  color: var(--color-text);
+}
+
+.repo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.repo-icon {
+  font-size: 1.4rem;
+  color: var(--color-text-secondary);
+  transition: var(--transition);
+}
+
+.repo-card:hover .repo-icon {
+  color: var(--color-accent-light);
+}
+
+.repo-stars {
+  height: 20px;
+}
+
+.repo-name {
+  font-family: var(--font-mono);
+  font-size: 0.92rem;
+  font-weight: 600;
+  word-break: break-word;
+  margin-bottom: 0.55rem;
+  color: var(--color-accent-light);
+}
+
+.repo-description {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.repos-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 /* ---------- Skills Grid ---------- */
